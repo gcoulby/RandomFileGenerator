@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("RandomFilesGeneration")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Recursively creates directories full of randomly named files. Used for testing batching scripts.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Graham Coulby")]
 [assembly: AssemblyProduct("RandomFilesGeneration")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
