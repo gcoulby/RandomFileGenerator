@@ -2,11 +2,14 @@
   "Extensions": [
     "doc",
     "pdf",
-    "rvt",
     "xlsx",
-    "ifc",
     "ppt",
-    "jpeg"
+    "jpeg",
+    "bmp",
+    "ai",
+    "psd",
+    "gif",
+    "txt"
   ],
   "Words": [
     "zero",
