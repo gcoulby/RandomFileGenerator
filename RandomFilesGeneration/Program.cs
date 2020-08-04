@@ -22,7 +22,7 @@ namespace RandomFilesGeneration
             _rand = new Random();
 
             var desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            var dir = Directory.CreateDirectory(Path.Combine(desktopPath, $"Randomly Generated Files")).FullName;
+            var dir = Directory.CreateDirectory(Path.Combine(desktopPath,$"Randomly Generated Files: {_data.Words[_rand.Next(0, _data.Words.Count - 1)]}")).FullName;
 
             Create(dir);
         }
